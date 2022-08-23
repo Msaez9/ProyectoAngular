@@ -14,5 +14,8 @@ export class AppComponent {
     { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
+
+  public ListaDeCosas = ['perros','autos','futbol','playa']
+
   constructor() {}
 }

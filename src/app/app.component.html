@@ -22,6 +22,16 @@
             <ion-label>{{ label }}</ion-label>
           </ion-item>
         </ion-list>
+
+        <ion-list>
+          <ion-list-header>Cosas Locas</ion-list-header>
+
+          <ion-item *ngFor="let item of ListaDeCosas">
+            <ion-icon slot="start" name="film"></ion-icon>
+            <ion-label>{{item}}</ion-label>
+          </ion-item>
+        </ion-list>
+
       </ion-content>
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>
